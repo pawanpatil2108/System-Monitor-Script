@@ -1,7 +1,32 @@
-# Vim temporary files
+
+# ---- Editor Files ----
+# Vim swap files
 *.swp
 *.swo
 *.swl
+*.swn
+*.swm
+
+# ---- Logs ----
+*.log
+*.tmp
+*.bak
+
+# Nano backup files
+*~
+
+# ---- Project Specific ----
+system-monitor.log
+output/
+temp/
+
+# ---- Future Python Support (Minimal) ----
+__pycache__/
+*.pyc
+
+# ---- IDE Configs ----
+.vscode/
+.idea/*.swl
 *.swm
 *.swn
 
